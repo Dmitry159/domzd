@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\bin\Debug\net6.0\dzcsh019.exe
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\bin\Debug\net6.0\dzcsh019.deps.json
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\bin\Debug\net6.0\dzcsh019.runtimeconfig.json
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\bin\Debug\net6.0\dzcsh019.dll
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\bin\Debug\net6.0\dzcsh019.pdb
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.AssemblyInfo.cs
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.dll
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\refint\dzcsh019.dll
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.pdb
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\dzcsh019.genruntimeconfig.cache
+C:\Users\User\Desktop\dz seminar c#\dzcsh019\obj\Debug\net6.0\ref\dzcsh019.dll
