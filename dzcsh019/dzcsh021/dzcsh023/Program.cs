@@ -15,4 +15,4 @@ int N = int.Parse(Console.ReadLine()!);
         i++;
         Console.WriteLine( M );
     }
-    return i;
+    
