@@ -8,32 +8,31 @@
 //3 4 5
 
 int[,] GetArray(int n, int m)
- {    
-     int[,] result = new int[n, m];  
-        for (int i = 0; i < n; i++)   
-          {        
-             for (int j = 0; j < m; j++)    
-               {     
-                        result[i, j] = i + j;        
-                }   
-                  }    
-                   return result; 
-                   } 
-                   System.Console.WriteLine("Введите количество строк массива: ");
-                   int rows = int.Parse(Console.ReadLine()); 
-                   System.Console.WriteLine("Введите количество столбцов массива: ");
-                    int columns = int.Parse(Console.ReadLine());
-                     int[,] array = GetArray(rows, columns); 
-                     PrintArray(array); 
-                     void PrintArray(int[,] inArray)
-                      {    
-                         for (int i = 0; i < inArray.GetLength(0); i++)  
-                            {    
-                                     for (int j = 0; j < inArray.GetLength(1); j++) 
-                                             {           
-                                                  Console.Write($"{inArray[i, j]} ");  
-                                                         }      
-                                                            Console.WriteLine(); 
-                                                                } 
-                                                                }
-                                                                
+{
+    int[,] result = new int[n, m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            result[i, j] = i + j;
+        }
+    }
+    return result;
+}
+System.Console.WriteLine("Введите количество строк массива: ");
+int rows = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Введите количество столбцов массива: ");
+int columns = int.Parse(Console.ReadLine());
+int[,] array = GetArray(rows, columns);
+PrintArray(array);
+void PrintArray(int[,] inArray)
+{
+    for (int i = 0; i < inArray.GetLength(0); i++)
+    {
+        for (int j = 0; j < inArray.GetLength(1); j++)
+        {
+            Console.Write($"{inArray[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+}
