@@ -25,14 +25,15 @@ void PrintArray(int[] array)
         
         Console.Write($"\t{array[j]}");
        
-           if(j%2==0)
+           if(j%2!=0)
         {
             sum=array[j]+sum;
         }
         
         
     }
-    Console.WriteLine( -(sum));
+
+    Console.WriteLine($" Сумма чисел на нечетных позициях = {sum}");
 }
 int[] array = new int[4];
 
