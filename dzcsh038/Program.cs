@@ -34,7 +34,7 @@ void PrintArray(double[] array)
         }
     }
     N=max- min;
-    Console.Write(N);
+    Console.WriteLine($"Разница между max и min = {N}");
 }
 double[] array = new double[3];
 
