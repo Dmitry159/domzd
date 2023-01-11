@@ -2,9 +2,9 @@
 //Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными 
 //числами.
 //m = 3, n = 4.
-int[,] GetArray(int m, int n, int minValue, int maxValue)
+double[,] GetArray(int m, int n, int minValue, int maxValue)
 {
-    int[,] result = new int[m, n];
+    double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -14,7 +14,7 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
     }
     return result;
 }
-void PrintArray(int[,] inArray)
+void PrintArray(double[,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
@@ -29,5 +29,5 @@ Console.Write("Введите количество строк массива: m=
 int rows = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов массива: n=");
 int columns = int.Parse(Console.ReadLine());
-int[,] array = GetArray(rows, columns, -10, 10);
+double[,] array = GetArray(rows, columns, -10, 10);
 PrintArray(array);
